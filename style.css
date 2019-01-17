@@ -1,0 +1,29 @@
+a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: #000;
+    text-align: middle;
+    padding: 15px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+}
+#navbar {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.button {
+    padding: 10px 15px;
+    margin: 10px;
+    background: #4387fd;
+    border-radius: 4px;
+    color: #fff;
+
+}
