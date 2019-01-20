@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: -webkit-block;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    border: 1px black solid;
+}
+.left{
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#logo{
+    height: 30px;
+    width: 92px;
+    position: relative;
+    border: 0px;
+    top: 7px;
+}
+.form{
+    display: -webkit-inline-box;
+    width: 650px;
+    line-height: 40px;
+    border-radius: 30px;
+    align-items: center;
+}
+.text{
+    display: block;
+    border: 1px solid #dfe1e5;
+    margin-left: 50px;
+}
+
+.right{
+    float: right;
+    padding: 10px;
+}
+#mic{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-left: -100px;
+    top: 10px;
+    border: none;
+}
+#glass {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 590px;
+    top: -36px;
+    border: none;
+}
+.button {
+    padding: 7px 12px;
+    background: #4387fd;
+    border-radius: 2px;
+    color: #fff;
+    margin-top: 5px;
+    display: block;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: none;
+}
+table {
+    display: table;
+    margin: 0 auto;
+    font-size: 10px;
+}
+li {
+    display: inline-block;
+}
+.button2{
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    margin-left: 10px;
+}
+.button2:hover{
+    color: #222;
+    font-weight: 800;
+}
+.button2:active{
+    color: #4387fd;
+    border-bottom:2px solid #4387fd;
+}
+.hormen {
+    position: absolute;
+    top: 108px;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(146, 146, 146, 50%);
+    width: 100%;
+}
+.list2 {
+    display: inline-block;
+    color: #666;
+    position: absolute;
+    top: -35px;
+    left:125px;
+}
+#specialspace {
+    margin-left: 100px;
+}
+#resultnumber {
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    top: 115px;
+    left: 145px;
+}
+.results {
+    position: absolute;
+    top: 155px;
+    left: 145px;
+    width: 625px;
+    line-height: 1.2em;
+}
+.report {
+    margin-bottom: 0px;
+}
+h3 {
+    color: blue;
+    font-weight:normal;
+}
+cite:hover {
+    text-decoration: none;
+}
+p {
+    font-size: 13px;
+    color: #545454;
+    word-wrap: break-word;
+}
+a {
+    text-decoration: none;
+}
+.date {
+    color: #808080;
+}
+.links {
+    font-family: Roboto,arial,sans-serif;
+    line-height: 1.4;
+    margin-bottom: -15px;
+}
+.links:hover{
+    text-decoration: underline;
+}
+cite {
+    color: green;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+}

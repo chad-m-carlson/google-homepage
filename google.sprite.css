@@ -20,3 +20,20 @@
 .google.i1_1967ca6a:hover {
 	opacity: .85;
 }
+.google.glass { 
+	width: 25px;
+	height: 25px;
+	background-position: -248px -31px;
+	position: relative;
+	margin-left: 10px;
+	top: 10px;
+	border: none;
+}
+.google.squares{
+	width: 30px;
+	height: 30px;
+	background-position: -129px -31px;
+	display: inline-block;
+	opacity: .55;
+	padding-right: 20px;
+}
