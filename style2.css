@@ -191,3 +191,38 @@ h4 {
     font-size: 14px;
     padding: 5px 0px;
 }
+.pages{
+    position: absolute;
+    top: 1050px;
+    left: 300px;
+}
+.ooo {
+    display: block;
+    text-align: left;
+}
+#G {
+    cursor: default;
+}
+.td{
+    width: 30px;
+    text-align: center;
+    vertical-align: text-bottom;
+    cursor: pointer;
+}
+.td:hover{
+    text-decoration: underline;
+}
+.ooospan{
+    position: relative;
+    top: 50px;
+    font-size:12px;
+    color: #4285f4;
+}
+.ooospan:hover {
+    text-decoration: underline;
+    color: #4285f4;
+}
+#pagesend {
+    text-align: right;
+    color: #4285f4;
+}
