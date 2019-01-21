@@ -79,6 +79,9 @@ table {
     margin: 0 auto;
     font-size: 10px;
 }
+ul {
+    list-style: none;
+}
 #list2 {
     display: inline-block;
 }
