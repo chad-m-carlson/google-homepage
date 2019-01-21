@@ -79,7 +79,7 @@ table {
     margin: 0 auto;
     font-size: 10px;
 }
-li {
+#list2 {
     display: inline-block;
 }
 .button2{
@@ -186,4 +186,5 @@ h4 {
 .related {
     font-weight: bold;
     font-size: 14px;
+    padding: 5px 0px;
 }
