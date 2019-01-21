@@ -27,6 +27,14 @@ body{
     line-height: 40px;
     border-radius: 30px;
     align-items: center;
+    border: 1px solid #dfe1e5;
+}
+.form:focus{
+    border: none;
+}
+input {
+    font-family: arial,sans-serif;
+    font-size: 16px;
 }
 .text{
     display: block;
@@ -93,7 +101,7 @@ li {
     position: absolute;
     top: 108px;
     font-size: 13px;
-    border-bottom: 1px solid rgb(146, 146, 146, 50%);
+    border-bottom: 1px solid rgba(146, 146, 146, 0.5);
     width: 100%;
 }
 .list2 {
@@ -121,11 +129,14 @@ li {
     line-height: 1.2em;
 }
 .report {
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 h3 {
     color: blue;
     font-weight:normal;
+}
+h3:hover {
+    text-decoration: underline; 
 }
 cite:hover {
     text-decoration: none;
@@ -154,4 +165,8 @@ cite {
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
+    cursor: pointer;
+}
+.fa-caret-down {
+    margin-left: 5px;
 }
